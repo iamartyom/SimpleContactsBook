@@ -1,0 +1,19 @@
+{ 
+    "data":
+    [{
+        "firstName": "Bob",
+        "lastName": "Ridney",
+        "phone": "(8029)-555-33-44",
+        "email": "bobr@example.com"
+    },{
+        "firstName": "Mary",
+        "lastName": "Tesset",
+        "phone": "(8029)-555-88-99",
+        "email": "maryes@example.com"
+    },{
+        "firstName": "Kate",
+        "lastName": "Bolkov",
+        "phone": "(8029)-111-33-55",
+        "email": "bolkov.kate@example.com"
+    }]
+}

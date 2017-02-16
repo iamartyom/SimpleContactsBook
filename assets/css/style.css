@@ -1,0 +1,28 @@
+html {
+    font-family: 'Droid Serif', serif;
+}
+
+md-card {
+    padding: 20px;
+    margin: 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.formAddPerson {
+    text-align: center;
+}
+
+.header-caption {
+    text-align: center;
+    font-size: 65px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footerCaption {
+    text-align: center;
+    color: grey;
+}

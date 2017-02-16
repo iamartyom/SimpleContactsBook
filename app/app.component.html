@@ -1,0 +1,33 @@
+<h1 class="header-caption">Simple contacts book</h1>
+<md-card>
+    <form #form="ngForm" (ngSubmit)="addPerson(form.value); form.reset();" class="formAddPerson">
+        <md-input placeholder = "First name" maxlength="20" name = "firstName" [ngModel] = "firstName" required></md-input>
+        <md-input placeholder = "Last name" maxlength="20" name = "lastName" [ngModel] = "lastName" required></md-input>
+        <md-input type="phone" placeholder = "Phone" maxlength="20" name = "phone" [ngModel] = "phone" required></md-input>
+        <md-input type="email" placeholder = "E-mail" maxlength="20" name = "email" [ngModel] = "email" required></md-input>
+        <button md-raised-button color="primary" [disabled] = "!form.valid">Added</button>
+    </form>
+</md-card>
+<md-card>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Phone</th>
+        <th>E-mail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let person of persons">
+        <td>{{ person.firstName }}</td>
+        <td>{{ person.lastName }}</td>
+        <td>{{ person.phone }}</td>
+        <td>{{ person.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</md-card>
+<md-card>
+    <h6 class="footerCaption">Powered in Angular 2. Developer - Artsiom Hrytsuk. Blog - <a href="https://progtask.ru">progtask.ru</a></h6>
+</md-card>
