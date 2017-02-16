@@ -1,8 +1,8 @@
 # Simple contacts book built with Angular 2
 
-How to run
+How to run:
 
-- Download and install Node.js.
+- Download and install [Node.js](https://nodejs.org).
 
 - Run command:
 
